@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: all;
+}
+
+html {
+  transition: background-color 300ms ease, color 300ms ease;
+}
+
+* {
+  transition: background-color 300ms ease, color 300ms ease,
+    border-color 300ms ease, fill 300ms ease, stroke 300ms ease;
+}
