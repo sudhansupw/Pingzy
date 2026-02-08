@@ -1,6 +1,6 @@
 import { io } from "socket.io-client";
 
-const BASE_URL = "http://localhost:5001";
+const BASE_URL = "https://pingzy-1.onrender.com"
 
 const socket = io(BASE_URL, {
   autoConnect: false,
