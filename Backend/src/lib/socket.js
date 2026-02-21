@@ -10,7 +10,7 @@ const userSocketMap = {};
 export const setupSocket = (server) => {
   io = new Server(server, {
     cors: {
-      origin: "https://pingzy-ajpx.vercel.app",
+      origin: process.env.FRONTEND_URL,
       credentials: true,
     },
   });
